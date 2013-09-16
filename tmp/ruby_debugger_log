@@ -1,0 +1,1941 @@
+
+Vim plugin, 18:02:11: Trying to toggle a breakpoint in the file /auto/home2/liux14/workspace/sasevt/tools/qa/shared/tests/vtl/EVT/new_evt.rb:909
+Vim plugin, 18:02:11: There is no already set breakpoint, so create new one
+Vim plugin, 18:02:11: Set breakpoint to: /auto/home2/liux14/workspace/sasevt/tools/qa/shared/tests/vtl/EVT/new_evt.rb:909
+Vim plugin, 18:02:11: Added Breakpoint object to RubyDebugger.breakpoints array
+Vim plugin, 18:02:18: Executing :Rdebugger...
+Vim plugin, 18:02:18: Initializing Server object, with variables: hostname: 127.0.0.1, rdebug_port: 39767, debugger_port: 39768, runtime_dir: /auto/home2/liux14/.vim, tmp_file: /auto/home2/liux14/.vim/tmp/ruby_debugger, output_file: /auto/home2/liux14/.vim/tmp/ruby_debugger_output
+Vim plugin, 18:02:19: Starting Server, command: "'/auto/home2/liux14/workspace/sasevt/tools/qa/shared/tests/vtl/EVT/script/server' webrick"
+Vim plugin, 18:02:19: Trying to kill all old servers first
+Vim plugin, 18:02:19: Trying to find PID of process on 39767 port, must_get_pid = 0
+Vim plugin, 18:02:19: Trying to find listener of port 39767
+Vim plugin, 18:02:19: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:19: Found pid - 
+Vim plugin, 18:02:19: PID - , found by 0 repeats
+Vim plugin, 18:02:19: Trying to find PID of process on 39768 port, must_get_pid = 0
+Vim plugin, 18:02:19: Trying to find listener of port 39768
+Vim plugin, 18:02:19: Executing command: lsof -i tcp:39768 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:19: Found pid - 
+Vim plugin, 18:02:19: PID - , found by 0 repeats
+Vim plugin, 18:02:19: Servers are killed, trying to start new servers
+Vim plugin, 18:02:19: Executing command: rdebug-ide  -p 39767 -- '/auto/home2/liux14/workspace/sasevt/tools/qa/shared/tests/vtl/EVT/script/server' webrick > /auto/home2/liux14/.vim/tmp/ruby_debugger_output 2>&1 &
+Vim plugin, 18:02:19: Executing command: ruby /auto/home2/liux14/.vim/bin/ruby_debugger.rb 127.0.0.1 39767 39768 vim VIM "/auto/home2/liux14/.vim/tmp/ruby_debugger" posix 1 /auto/home2/liux14/.vim/tmp/ruby_debugger_log &
+Vim plugin, 18:02:19: Now we need to store PIDs of servers, retrieving them: 
+Vim plugin, 18:02:19: Trying to find PID of process on 39767 port, must_get_pid = 1
+Ruby_debugger.rb, 18:02:19 : Starting to connect by TCPSocket with host: 127.0.0.1 and port: 39767
+Vim plugin, 18:02:19: Trying to find listener of port 39767
+Ruby_debugger.rb, 18:02:19 : Connected with 127.0.0.1:39767 by TCPSocket by 0 repeats
+Vim plugin, 18:02:19: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Ruby_debugger.rb, 18:02:19 : Start TCPServer with host: 127.0.0.1 and port: 39768
+Ruby_debugger.rb, 18:02:19 : ERROR!!!: Address already in use - bind(2)
+Backtrace: /auto/home2/liux14/.vim/bin/ruby_debugger.rb:11:in `initialize'/auto/home2/liux14/.vim/bin/ruby_debugger.rb:11:in `new'/auto/home2/liux14/.vim/bin/ruby_debugger.rb:11:in `initialize'/auto/home2/liux14/.vim/bin/ruby_debugger.rb:180:in `new'/auto/home2/liux14/.vim/bin/ruby_debugger.rb:180
+Vim plugin, 18:02:19: Found pid - 
+Vim plugin, 18:02:19: Trying to find listener of port 39767
+Vim plugin, 18:02:19: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:19: Found pid - 
+Vim plugin, 18:02:19: Trying to find listener of port 39767
+Vim plugin, 18:02:19: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:19: Found pid - 
+Vim plugin, 18:02:19: Trying to find listener of port 39767
+Vim plugin, 18:02:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:20: Found pid - 
+Vim plugin, 18:02:20: Trying to find listener of port 39767
+Vim plugin, 18:02:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:20: Found pid - 
+Vim plugin, 18:02:20: Trying to find listener of port 39767
+Vim plugin, 18:02:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:20: Found pid - 
+Vim plugin, 18:02:20: Trying to find listener of port 39767
+Vim plugin, 18:02:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:20: Found pid - 
+Vim plugin, 18:02:20: Trying to find listener of port 39767
+Vim plugin, 18:02:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:20: Found pid - 
+Vim plugin, 18:02:20: Trying to find listener of port 39767
+Vim plugin, 18:02:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:20: Found pid - 
+Vim plugin, 18:02:20: Trying to find listener of port 39767
+Vim plugin, 18:02:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:20: Found pid - 
+Vim plugin, 18:02:20: Trying to find listener of port 39767
+Vim plugin, 18:02:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:20: Found pid - 
+Vim plugin, 18:02:20: Trying to find listener of port 39767
+Vim plugin, 18:02:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:20: Found pid - 
+Vim plugin, 18:02:20: Trying to find listener of port 39767
+Vim plugin, 18:02:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:20: Found pid - 
+Vim plugin, 18:02:20: Trying to find listener of port 39767
+Vim plugin, 18:02:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:20: Found pid - 
+Vim plugin, 18:02:20: Trying to find listener of port 39767
+Vim plugin, 18:02:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:20: Found pid - 
+Vim plugin, 18:02:21: Trying to find listener of port 39767
+Vim plugin, 18:02:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:21: Found pid - 
+Vim plugin, 18:02:21: Trying to find listener of port 39767
+Vim plugin, 18:02:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:21: Found pid - 
+Vim plugin, 18:02:21: Trying to find listener of port 39767
+Vim plugin, 18:02:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:21: Found pid - 
+Vim plugin, 18:02:21: Trying to find listener of port 39767
+Vim plugin, 18:02:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:21: Found pid - 
+Vim plugin, 18:02:21: Trying to find listener of port 39767
+Vim plugin, 18:02:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:21: Found pid - 
+Vim plugin, 18:02:21: Trying to find listener of port 39767
+Vim plugin, 18:02:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:21: Found pid - 
+Vim plugin, 18:02:21: Trying to find listener of port 39767
+Vim plugin, 18:02:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:21: Found pid - 
+Vim plugin, 18:02:21: Trying to find listener of port 39767
+Vim plugin, 18:02:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:21: Found pid - 
+Vim plugin, 18:02:21: Trying to find listener of port 39767
+Vim plugin, 18:02:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:21: Found pid - 
+Vim plugin, 18:02:21: Trying to find listener of port 39767
+Vim plugin, 18:02:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:21: Found pid - 
+Vim plugin, 18:02:21: Trying to find listener of port 39767
+Vim plugin, 18:02:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:21: Found pid - 
+Vim plugin, 18:02:21: Trying to find listener of port 39767
+Vim plugin, 18:02:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:21: Found pid - 
+Vim plugin, 18:02:21: Trying to find listener of port 39767
+Vim plugin, 18:02:22: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:22: Found pid - 
+Vim plugin, 18:02:22: Trying to find listener of port 39767
+Vim plugin, 18:02:22: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:22: Found pid - 
+Vim plugin, 18:02:22: Trying to find listener of port 39767
+Vim plugin, 18:02:22: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:22: Found pid - 
+Vim plugin, 18:02:22: Trying to find listener of port 39767
+Vim plugin, 18:02:22: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:22: Found pid - 
+Vim plugin, 18:02:22: Trying to find listener of port 39767
+Vim plugin, 18:02:22: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:22: Found pid - 
+Vim plugin, 18:02:22: Trying to find listener of port 39767
+Vim plugin, 18:02:22: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:22: Found pid - 
+Vim plugin, 18:02:22: Trying to find listener of port 39767
+Vim plugin, 18:02:22: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:22: Found pid - 
+Vim plugin, 18:02:22: Trying to find listener of port 39767
+Vim plugin, 18:02:22: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:22: Found pid - 
+Vim plugin, 18:02:22: Trying to find listener of port 39767
+Vim plugin, 18:02:22: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:22: Found pid - 
+Vim plugin, 18:02:22: Trying to find listener of port 39767
+Vim plugin, 18:02:22: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:23: Found pid - 
+Vim plugin, 18:02:23: Trying to find listener of port 39767
+Vim plugin, 18:02:23: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:23: Found pid - 
+Vim plugin, 18:02:23: Trying to find listener of port 39767
+Vim plugin, 18:02:23: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:23: Found pid - 
+Vim plugin, 18:02:23: Trying to find listener of port 39767
+Vim plugin, 18:02:23: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:23: Found pid - 
+Vim plugin, 18:02:23: Trying to find listener of port 39767
+Vim plugin, 18:02:23: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:23: Found pid - 
+Vim plugin, 18:02:23: Trying to find listener of port 39767
+Vim plugin, 18:02:23: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:23: Found pid - 
+Vim plugin, 18:02:23: Trying to find listener of port 39767
+Vim plugin, 18:02:23: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:23: Found pid - 
+Vim plugin, 18:02:23: Trying to find listener of port 39767
+Vim plugin, 18:02:23: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:23: Found pid - 
+Vim plugin, 18:02:23: Trying to find listener of port 39767
+Vim plugin, 18:02:23: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:23: Found pid - 
+Vim plugin, 18:02:23: Trying to find listener of port 39767
+Vim plugin, 18:02:23: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:23: Found pid - 
+Vim plugin, 18:02:23: Trying to find listener of port 39767
+Vim plugin, 18:02:23: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:24: Found pid - 
+Vim plugin, 18:02:24: Trying to find listener of port 39767
+Vim plugin, 18:02:24: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:24: Found pid - 
+Vim plugin, 18:02:24: Trying to find listener of port 39767
+Vim plugin, 18:02:24: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:24: Found pid - 
+Vim plugin, 18:02:24: Trying to find listener of port 39767
+Vim plugin, 18:02:24: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:24: Found pid - 
+Vim plugin, 18:02:24: Trying to find listener of port 39767
+Vim plugin, 18:02:24: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:24: Found pid - 
+Vim plugin, 18:02:24: Trying to find listener of port 39767
+Vim plugin, 18:02:24: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:24: Found pid - 
+Vim plugin, 18:02:24: Trying to find listener of port 39767
+Vim plugin, 18:02:24: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:24: Found pid - 
+Vim plugin, 18:02:24: Trying to find listener of port 39767
+Vim plugin, 18:02:24: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:24: Found pid - 
+Vim plugin, 18:02:24: Trying to find listener of port 39767
+Vim plugin, 18:02:24: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:24: Found pid - 
+Vim plugin, 18:02:24: Trying to find listener of port 39767
+Vim plugin, 18:02:24: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:24: Found pid - 
+Vim plugin, 18:02:25: Trying to find listener of port 39767
+Vim plugin, 18:02:25: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:25: Found pid - 
+Vim plugin, 18:02:25: Trying to find listener of port 39767
+Vim plugin, 18:02:25: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:25: Found pid - 
+Vim plugin, 18:02:25: Trying to find listener of port 39767
+Vim plugin, 18:02:25: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:25: Found pid - 
+Vim plugin, 18:02:25: Trying to find listener of port 39767
+Vim plugin, 18:02:25: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:25: Found pid - 
+Vim plugin, 18:02:25: Trying to find listener of port 39767
+Vim plugin, 18:02:25: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:25: Found pid - 
+Vim plugin, 18:02:25: Trying to find listener of port 39767
+Vim plugin, 18:02:25: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:25: Found pid - 
+Vim plugin, 18:02:25: Trying to find listener of port 39767
+Vim plugin, 18:02:25: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:25: Found pid - 
+Vim plugin, 18:02:25: Trying to find listener of port 39767
+Vim plugin, 18:02:25: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:25: Found pid - 
+Vim plugin, 18:02:25: Trying to find listener of port 39767
+Vim plugin, 18:02:25: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:25: Found pid - 
+Vim plugin, 18:02:25: Trying to find listener of port 39767
+Vim plugin, 18:02:25: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:25: Found pid - 
+Vim plugin, 18:02:25: Trying to find listener of port 39767
+Vim plugin, 18:02:25: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:25: Found pid - 
+Vim plugin, 18:02:25: Trying to find listener of port 39767
+Vim plugin, 18:02:25: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:25: Found pid - 
+Vim plugin, 18:02:25: Trying to find listener of port 39767
+Vim plugin, 18:02:25: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:25: Found pid - 
+Vim plugin, 18:02:25: Trying to find listener of port 39767
+Vim plugin, 18:02:25: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:26: Found pid - 
+Vim plugin, 18:02:26: Trying to find listener of port 39767
+Vim plugin, 18:02:26: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:26: Found pid - 
+Vim plugin, 18:02:26: Trying to find listener of port 39767
+Vim plugin, 18:02:26: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:26: Found pid - 
+Vim plugin, 18:02:26: Trying to find listener of port 39767
+Vim plugin, 18:02:26: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:26: Found pid - 
+Vim plugin, 18:02:26: Trying to find listener of port 39767
+Vim plugin, 18:02:26: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:26: Found pid - 
+Vim plugin, 18:02:26: Trying to find listener of port 39767
+Vim plugin, 18:02:26: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:26: Found pid - 
+Vim plugin, 18:02:26: Trying to find listener of port 39767
+Vim plugin, 18:02:26: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:26: Found pid - 
+Vim plugin, 18:02:26: Trying to find listener of port 39767
+Vim plugin, 18:02:26: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:26: Found pid - 
+Vim plugin, 18:02:26: Trying to find listener of port 39767
+Vim plugin, 18:02:26: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:26: Found pid - 
+Vim plugin, 18:02:26: Trying to find listener of port 39767
+Vim plugin, 18:02:26: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:26: Found pid - 
+Vim plugin, 18:02:26: Trying to find listener of port 39767
+Vim plugin, 18:02:26: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:26: Found pid - 
+Vim plugin, 18:02:26: Trying to find listener of port 39767
+Vim plugin, 18:02:26: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:26: Found pid - 
+Vim plugin, 18:02:26: Trying to find listener of port 39767
+Vim plugin, 18:02:26: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:26: Found pid - 
+Vim plugin, 18:02:26: Trying to find listener of port 39767
+Vim plugin, 18:02:26: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:26: Found pid - 
+Vim plugin, 18:02:26: Trying to find listener of port 39767
+Vim plugin, 18:02:26: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:26: Found pid - 
+Vim plugin, 18:02:26: Trying to find listener of port 39767
+Vim plugin, 18:02:26: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:26: Found pid - 
+Vim plugin, 18:02:26: Trying to find listener of port 39767
+Vim plugin, 18:02:26: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:26: Found pid - 
+Vim plugin, 18:02:26: Trying to find listener of port 39767
+Vim plugin, 18:02:26: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:26: Found pid - 
+Vim plugin, 18:02:26: Trying to find listener of port 39767
+Vim plugin, 18:02:26: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:27: Found pid - 
+Vim plugin, 18:02:27: Trying to find listener of port 39767
+Vim plugin, 18:02:27: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:27: Found pid - 
+Vim plugin, 18:02:27: Trying to find listener of port 39767
+Vim plugin, 18:02:27: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:27: Found pid - 
+Vim plugin, 18:02:27: Trying to find listener of port 39767
+Vim plugin, 18:02:27: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:27: Found pid - 
+Vim plugin, 18:02:27: Trying to find listener of port 39767
+Vim plugin, 18:02:27: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:27: Found pid - 
+Vim plugin, 18:02:27: Trying to find listener of port 39767
+Vim plugin, 18:02:27: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:27: Found pid - 
+Vim plugin, 18:02:27: Trying to find listener of port 39767
+Vim plugin, 18:02:27: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:27: Found pid - 
+Vim plugin, 18:02:27: Trying to find listener of port 39767
+Vim plugin, 18:02:27: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:27: Found pid - 
+Vim plugin, 18:02:27: Trying to find listener of port 39767
+Vim plugin, 18:02:27: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:27: Found pid - 
+Vim plugin, 18:02:27: Trying to find listener of port 39767
+Vim plugin, 18:02:27: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:27: Found pid - 
+Vim plugin, 18:02:27: Trying to find listener of port 39767
+Vim plugin, 18:02:27: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:27: Found pid - 
+Vim plugin, 18:02:27: Trying to find listener of port 39767
+Vim plugin, 18:02:27: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:27: Found pid - 
+Vim plugin, 18:02:27: Trying to find listener of port 39767
+Vim plugin, 18:02:27: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:27: Found pid - 
+Vim plugin, 18:02:27: Trying to find listener of port 39767
+Vim plugin, 18:02:27: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:27: Found pid - 
+Vim plugin, 18:02:27: Trying to find listener of port 39767
+Vim plugin, 18:02:27: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:27: Found pid - 
+Vim plugin, 18:02:27: Trying to find listener of port 39767
+Vim plugin, 18:02:27: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:27: Found pid - 
+Vim plugin, 18:02:27: Trying to find listener of port 39767
+Vim plugin, 18:02:27: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:27: Found pid - 
+Vim plugin, 18:02:27: Trying to find listener of port 39767
+Vim plugin, 18:02:28: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:28: Found pid - 
+Vim plugin, 18:02:28: Trying to find listener of port 39767
+Vim plugin, 18:02:28: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:28: Found pid - 
+Vim plugin, 18:02:28: Trying to find listener of port 39767
+Vim plugin, 18:02:28: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:28: Found pid - 
+Vim plugin, 18:02:28: Trying to find listener of port 39767
+Vim plugin, 18:02:28: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:28: Found pid - 
+Vim plugin, 18:02:28: Trying to find listener of port 39767
+Vim plugin, 18:02:28: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:28: Found pid - 
+Vim plugin, 18:02:28: Trying to find listener of port 39767
+Vim plugin, 18:02:28: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:28: Found pid - 
+Vim plugin, 18:02:28: Trying to find listener of port 39767
+Vim plugin, 18:02:28: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:28: Found pid - 
+Vim plugin, 18:02:28: Trying to find listener of port 39767
+Vim plugin, 18:02:28: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:28: Found pid - 
+Vim plugin, 18:02:28: Trying to find listener of port 39767
+Vim plugin, 18:02:28: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:28: Found pid - 
+Vim plugin, 18:02:28: Trying to find listener of port 39767
+Vim plugin, 18:02:28: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:28: Found pid - 
+Vim plugin, 18:02:28: Trying to find listener of port 39767
+Vim plugin, 18:02:28: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:28: Found pid - 
+Vim plugin, 18:02:28: Trying to find listener of port 39767
+Vim plugin, 18:02:28: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:28: Found pid - 
+Vim plugin, 18:02:28: Trying to find listener of port 39767
+Vim plugin, 18:02:28: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:28: Found pid - 
+Vim plugin, 18:02:28: Trying to find listener of port 39767
+Vim plugin, 18:02:28: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:28: Found pid - 
+Vim plugin, 18:02:28: Trying to find listener of port 39767
+Vim plugin, 18:02:28: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:28: Found pid - 
+Vim plugin, 18:02:29: Trying to find listener of port 39767
+Vim plugin, 18:02:29: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:29: Found pid - 
+Vim plugin, 18:02:29: Trying to find listener of port 39767
+Vim plugin, 18:02:29: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:29: Found pid - 
+Vim plugin, 18:02:29: Trying to find listener of port 39767
+Vim plugin, 18:02:29: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:29: Found pid - 
+Vim plugin, 18:02:29: Trying to find listener of port 39767
+Vim plugin, 18:02:29: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:29: Found pid - 
+Vim plugin, 18:02:29: Trying to find listener of port 39767
+Vim plugin, 18:02:29: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:29: Found pid - 
+Vim plugin, 18:02:29: Trying to find listener of port 39767
+Vim plugin, 18:02:29: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:29: Found pid - 
+Vim plugin, 18:02:29: Trying to find listener of port 39767
+Vim plugin, 18:02:29: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:29: Found pid - 
+Vim plugin, 18:02:29: Trying to find listener of port 39767
+Vim plugin, 18:02:29: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:29: Found pid - 
+Vim plugin, 18:02:29: Trying to find listener of port 39767
+Vim plugin, 18:02:29: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:29: Found pid - 
+Vim plugin, 18:02:29: Trying to find listener of port 39767
+Vim plugin, 18:02:29: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:29: Found pid - 
+Vim plugin, 18:02:29: Trying to find listener of port 39767
+Vim plugin, 18:02:29: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:29: Found pid - 
+Vim plugin, 18:02:29: Trying to find listener of port 39767
+Vim plugin, 18:02:29: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:29: Found pid - 
+Vim plugin, 18:02:29: Trying to find listener of port 39767
+Vim plugin, 18:02:29: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:29: Found pid - 
+Vim plugin, 18:02:29: Trying to find listener of port 39767
+Vim plugin, 18:02:29: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:29: Found pid - 
+Vim plugin, 18:02:29: Trying to find listener of port 39767
+Vim plugin, 18:02:29: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:29: Found pid - 
+Vim plugin, 18:02:29: Trying to find listener of port 39767
+Vim plugin, 18:02:29: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:29: Found pid - 
+Vim plugin, 18:02:29: Trying to find listener of port 39767
+Vim plugin, 18:02:29: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:29: Found pid - 
+Vim plugin, 18:02:29: Trying to find listener of port 39767
+Vim plugin, 18:02:30: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:30: Found pid - 
+Vim plugin, 18:02:30: Trying to find listener of port 39767
+Vim plugin, 18:02:30: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:30: Found pid - 
+Vim plugin, 18:02:30: Trying to find listener of port 39767
+Vim plugin, 18:02:30: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:30: Found pid - 
+Vim plugin, 18:02:30: Trying to find listener of port 39767
+Vim plugin, 18:02:30: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:30: Found pid - 
+Vim plugin, 18:02:30: Trying to find listener of port 39767
+Vim plugin, 18:02:30: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:30: Found pid - 
+Vim plugin, 18:02:30: Trying to find listener of port 39767
+Vim plugin, 18:02:30: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:30: Found pid - 
+Vim plugin, 18:02:30: Trying to find listener of port 39767
+Vim plugin, 18:02:30: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:30: Found pid - 
+Vim plugin, 18:02:30: Trying to find listener of port 39767
+Vim plugin, 18:02:30: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:30: Found pid - 
+Vim plugin, 18:02:30: Trying to find listener of port 39767
+Vim plugin, 18:02:30: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:30: Found pid - 
+Vim plugin, 18:02:30: Trying to find listener of port 39767
+Vim plugin, 18:02:30: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:30: Found pid - 
+Vim plugin, 18:02:30: Trying to find listener of port 39767
+Vim plugin, 18:02:30: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:30: Found pid - 
+Vim plugin, 18:02:30: Trying to find listener of port 39767
+Vim plugin, 18:02:30: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:31: Found pid - 
+Vim plugin, 18:02:31: Trying to find listener of port 39767
+Vim plugin, 18:02:31: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:31: Found pid - 
+Vim plugin, 18:02:31: Trying to find listener of port 39767
+Vim plugin, 18:02:31: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:31: Found pid - 
+Vim plugin, 18:02:31: Trying to find listener of port 39767
+Vim plugin, 18:02:31: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:31: Found pid - 
+Vim plugin, 18:02:31: Trying to find listener of port 39767
+Vim plugin, 18:02:31: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:31: Found pid - 
+Vim plugin, 18:02:31: Trying to find listener of port 39767
+Vim plugin, 18:02:31: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:31: Found pid - 
+Vim plugin, 18:02:31: Trying to find listener of port 39767
+Vim plugin, 18:02:31: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:31: Found pid - 
+Vim plugin, 18:02:31: Trying to find listener of port 39767
+Vim plugin, 18:02:31: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:31: Found pid - 
+Vim plugin, 18:02:31: Trying to find listener of port 39767
+Vim plugin, 18:02:31: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:31: Found pid - 
+Vim plugin, 18:02:31: Trying to find listener of port 39767
+Vim plugin, 18:02:31: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:31: Found pid - 
+Vim plugin, 18:02:31: Trying to find listener of port 39767
+Vim plugin, 18:02:31: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:31: Found pid - 
+Vim plugin, 18:02:31: Trying to find listener of port 39767
+Vim plugin, 18:02:31: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:31: Found pid - 
+Vim plugin, 18:02:31: Trying to find listener of port 39767
+Vim plugin, 18:02:31: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:31: Found pid - 
+Vim plugin, 18:02:31: Trying to find listener of port 39767
+Vim plugin, 18:02:31: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:32: Found pid - 
+Vim plugin, 18:02:32: Trying to find listener of port 39767
+Vim plugin, 18:02:32: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:32: Found pid - 
+Vim plugin, 18:02:32: Trying to find listener of port 39767
+Vim plugin, 18:02:32: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:32: Found pid - 
+Vim plugin, 18:02:32: Trying to find listener of port 39767
+Vim plugin, 18:02:32: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:32: Found pid - 
+Vim plugin, 18:02:32: Trying to find listener of port 39767
+Vim plugin, 18:02:32: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:32: Found pid - 
+Vim plugin, 18:02:32: Trying to find listener of port 39767
+Vim plugin, 18:02:32: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:32: Found pid - 
+Vim plugin, 18:02:32: Trying to find listener of port 39767
+Vim plugin, 18:02:32: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:32: Found pid - 
+Vim plugin, 18:02:32: Trying to find listener of port 39767
+Vim plugin, 18:02:32: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:32: Found pid - 
+Vim plugin, 18:02:32: Trying to find listener of port 39767
+Vim plugin, 18:02:32: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:32: Found pid - 
+Vim plugin, 18:02:32: Trying to find listener of port 39767
+Vim plugin, 18:02:32: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:32: Found pid - 
+Vim plugin, 18:02:32: Trying to find listener of port 39767
+Vim plugin, 18:02:32: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:32: Found pid - 
+Vim plugin, 18:02:32: Trying to find listener of port 39767
+Vim plugin, 18:02:32: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:32: Found pid - 
+Vim plugin, 18:02:32: Trying to find listener of port 39767
+Vim plugin, 18:02:32: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:33: Found pid - 
+Vim plugin, 18:02:33: Trying to find listener of port 39767
+Vim plugin, 18:02:33: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:33: Found pid - 
+Vim plugin, 18:02:33: Trying to find listener of port 39767
+Vim plugin, 18:02:33: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:33: Found pid - 
+Vim plugin, 18:02:33: Trying to find listener of port 39767
+Vim plugin, 18:02:33: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:33: Found pid - 
+Vim plugin, 18:02:33: Trying to find listener of port 39767
+Vim plugin, 18:02:33: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:33: Found pid - 
+Vim plugin, 18:02:33: Trying to find listener of port 39767
+Vim plugin, 18:02:33: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:33: Found pid - 
+Vim plugin, 18:02:33: Trying to find listener of port 39767
+Vim plugin, 18:02:33: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:33: Found pid - 
+Vim plugin, 18:02:33: Trying to find listener of port 39767
+Vim plugin, 18:02:33: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:34: Found pid - 
+Vim plugin, 18:02:34: Trying to find listener of port 39767
+Vim plugin, 18:02:34: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:34: Found pid - 
+Vim plugin, 18:02:34: Trying to find listener of port 39767
+Vim plugin, 18:02:34: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:34: Found pid - 
+Vim plugin, 18:02:34: Trying to find listener of port 39767
+Vim plugin, 18:02:34: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:34: Found pid - 
+Vim plugin, 18:02:34: Trying to find listener of port 39767
+Vim plugin, 18:02:34: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:34: Found pid - 
+Vim plugin, 18:02:34: Trying to find listener of port 39767
+Vim plugin, 18:02:34: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:34: Found pid - 
+Vim plugin, 18:02:34: Trying to find listener of port 39767
+Vim plugin, 18:02:34: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:34: Found pid - 
+Vim plugin, 18:02:34: Trying to find listener of port 39767
+Vim plugin, 18:02:34: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:34: Found pid - 
+Vim plugin, 18:02:34: Trying to find listener of port 39767
+Vim plugin, 18:02:34: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:34: Found pid - 
+Vim plugin, 18:02:34: Trying to find listener of port 39767
+Vim plugin, 18:02:34: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:34: Found pid - 
+Vim plugin, 18:02:34: Trying to find listener of port 39767
+Vim plugin, 18:02:34: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:34: Found pid - 
+Vim plugin, 18:02:34: Trying to find listener of port 39767
+Vim plugin, 18:02:34: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:35: Found pid - 
+Vim plugin, 18:02:35: Trying to find listener of port 39767
+Vim plugin, 18:02:35: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:35: Found pid - 
+Vim plugin, 18:02:35: Trying to find listener of port 39767
+Vim plugin, 18:02:35: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:35: Found pid - 
+Vim plugin, 18:02:35: Trying to find listener of port 39767
+Vim plugin, 18:02:35: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:35: Found pid - 
+Vim plugin, 18:02:35: Trying to find listener of port 39767
+Vim plugin, 18:02:35: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:35: Found pid - 
+Vim plugin, 18:02:35: Trying to find listener of port 39767
+Vim plugin, 18:02:35: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:35: Found pid - 
+Vim plugin, 18:02:35: Trying to find listener of port 39767
+Vim plugin, 18:02:35: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:35: Found pid - 
+Vim plugin, 18:02:35: Trying to find listener of port 39767
+Vim plugin, 18:02:35: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:35: Found pid - 
+Vim plugin, 18:02:35: Trying to find listener of port 39767
+Vim plugin, 18:02:35: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:35: Found pid - 
+Vim plugin, 18:02:35: Trying to find listener of port 39767
+Vim plugin, 18:02:35: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:35: Found pid - 
+Vim plugin, 18:02:35: Trying to find listener of port 39767
+Vim plugin, 18:02:35: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:35: Found pid - 
+Vim plugin, 18:02:35: Trying to find listener of port 39767
+Vim plugin, 18:02:35: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:36: Found pid - 
+Vim plugin, 18:02:36: Trying to find listener of port 39767
+Vim plugin, 18:02:36: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:36: Found pid - 
+Vim plugin, 18:02:36: Trying to find listener of port 39767
+Vim plugin, 18:02:36: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:36: Found pid - 
+Vim plugin, 18:02:36: Trying to find listener of port 39767
+Vim plugin, 18:02:36: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:36: Found pid - 
+Vim plugin, 18:02:36: Trying to find listener of port 39767
+Vim plugin, 18:02:36: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:36: Found pid - 
+Vim plugin, 18:02:36: Trying to find listener of port 39767
+Vim plugin, 18:02:36: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:36: Found pid - 
+Vim plugin, 18:02:36: Trying to find listener of port 39767
+Vim plugin, 18:02:36: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:36: Found pid - 
+Vim plugin, 18:02:36: Trying to find listener of port 39767
+Vim plugin, 18:02:36: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:36: Found pid - 
+Vim plugin, 18:02:36: Trying to find listener of port 39767
+Vim plugin, 18:02:36: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:36: Found pid - 
+Vim plugin, 18:02:36: Trying to find listener of port 39767
+Vim plugin, 18:02:37: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:37: Found pid - 
+Vim plugin, 18:02:37: Trying to find listener of port 39767
+Vim plugin, 18:02:37: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:37: Found pid - 
+Vim plugin, 18:02:37: Trying to find listener of port 39767
+Vim plugin, 18:02:37: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:37: Found pid - 
+Vim plugin, 18:02:37: Trying to find listener of port 39767
+Vim plugin, 18:02:37: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:37: Found pid - 
+Vim plugin, 18:02:37: Trying to find listener of port 39767
+Vim plugin, 18:02:37: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:37: Found pid - 
+Vim plugin, 18:02:37: Trying to find listener of port 39767
+Vim plugin, 18:02:37: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:37: Found pid - 
+Vim plugin, 18:02:37: Trying to find listener of port 39767
+Vim plugin, 18:02:37: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:37: Found pid - 
+Vim plugin, 18:02:38: Trying to find listener of port 39767
+Vim plugin, 18:02:38: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:38: Found pid - 
+Vim plugin, 18:02:38: Trying to find listener of port 39767
+Vim plugin, 18:02:38: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:38: Found pid - 
+Vim plugin, 18:02:38: Trying to find listener of port 39767
+Vim plugin, 18:02:38: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:38: Found pid - 
+Vim plugin, 18:02:38: Trying to find listener of port 39767
+Vim plugin, 18:02:38: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:38: Found pid - 
+Vim plugin, 18:02:38: Trying to find listener of port 39767
+Vim plugin, 18:02:38: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:38: Found pid - 
+Vim plugin, 18:02:38: Trying to find listener of port 39767
+Vim plugin, 18:02:38: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:38: Found pid - 
+Vim plugin, 18:02:38: Trying to find listener of port 39767
+Vim plugin, 18:02:38: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:38: Found pid - 
+Vim plugin, 18:02:38: Trying to find listener of port 39767
+Vim plugin, 18:02:38: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:38: Found pid - 
+Vim plugin, 18:02:38: Trying to find listener of port 39767
+Vim plugin, 18:02:38: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:38: Found pid - 
+Vim plugin, 18:02:38: Trying to find listener of port 39767
+Vim plugin, 18:02:39: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:39: Found pid - 
+Vim plugin, 18:02:39: Trying to find listener of port 39767
+Vim plugin, 18:02:39: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:39: Found pid - 
+Vim plugin, 18:02:39: Trying to find listener of port 39767
+Vim plugin, 18:02:39: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:39: Found pid - 
+Vim plugin, 18:02:39: Trying to find listener of port 39767
+Vim plugin, 18:02:39: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:39: Found pid - 
+Vim plugin, 18:02:39: Trying to find listener of port 39767
+Vim plugin, 18:02:39: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:39: Found pid - 
+Vim plugin, 18:02:39: Trying to find listener of port 39767
+Vim plugin, 18:02:39: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:39: Found pid - 
+Vim plugin, 18:02:39: Trying to find listener of port 39767
+Vim plugin, 18:02:39: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:39: Found pid - 
+Vim plugin, 18:02:39: Trying to find listener of port 39767
+Vim plugin, 18:02:39: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:39: Found pid - 
+Vim plugin, 18:02:39: Trying to find listener of port 39767
+Vim plugin, 18:02:39: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:39: Found pid - 
+Vim plugin, 18:02:39: Trying to find listener of port 39767
+Vim plugin, 18:02:40: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:40: Found pid - 
+Vim plugin, 18:02:40: Trying to find listener of port 39767
+Vim plugin, 18:02:40: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:40: Found pid - 
+Vim plugin, 18:02:40: Trying to find listener of port 39767
+Vim plugin, 18:02:40: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:40: Found pid - 
+Vim plugin, 18:02:40: Trying to find listener of port 39767
+Vim plugin, 18:02:40: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:40: Found pid - 
+Vim plugin, 18:02:40: Trying to find listener of port 39767
+Vim plugin, 18:02:40: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:40: Found pid - 
+Vim plugin, 18:02:40: Trying to find listener of port 39767
+Vim plugin, 18:02:40: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:40: Found pid - 
+Vim plugin, 18:02:40: Trying to find listener of port 39767
+Vim plugin, 18:02:40: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:40: Found pid - 
+Vim plugin, 18:02:40: Trying to find listener of port 39767
+Vim plugin, 18:02:40: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:40: Found pid - 
+Vim plugin, 18:02:40: Trying to find listener of port 39767
+Vim plugin, 18:02:40: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:40: Found pid - 
+Vim plugin, 18:02:40: Trying to find listener of port 39767
+Vim plugin, 18:02:40: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:40: Found pid - 
+Vim plugin, 18:02:40: Trying to find listener of port 39767
+Vim plugin, 18:02:41: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:41: Found pid - 
+Vim plugin, 18:02:41: Trying to find listener of port 39767
+Vim plugin, 18:02:41: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:41: Found pid - 
+Vim plugin, 18:02:41: Trying to find listener of port 39767
+Vim plugin, 18:02:41: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:51: Executing :Rdebugger...
+Vim plugin, 18:02:51: Initializing Server object, with variables: hostname: 127.0.0.1, rdebug_port: 39767, debugger_port: 39768, runtime_dir: /auto/home2/liux14/.vim, tmp_file: /auto/home2/liux14/.vim/tmp/ruby_debugger, output_file: /auto/home2/liux14/.vim/tmp/ruby_debugger_output
+Vim plugin, 18:02:51: Starting Server, command: "'/auto/home2/liux14/workspace/sasevt/tools/qa/shared/tests/vtl/EVT/script/server' webrick"
+Vim plugin, 18:02:51: Trying to kill all old servers first
+Vim plugin, 18:02:51: Trying to find PID of process on 39767 port, must_get_pid = 0
+Vim plugin, 18:02:51: Trying to find listener of port 39767
+Vim plugin, 18:02:51: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:51: Found pid - 
+Vim plugin, 18:02:51: PID - , found by 0 repeats
+Vim plugin, 18:02:51: Trying to find PID of process on 39768 port, must_get_pid = 0
+Vim plugin, 18:02:51: Trying to find listener of port 39768
+Vim plugin, 18:02:51: Executing command: lsof -i tcp:39768 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:51: Found pid - 
+Vim plugin, 18:02:51: PID - , found by 0 repeats
+Vim plugin, 18:02:52: Servers are killed, trying to start new servers
+Vim plugin, 18:02:52: Executing command: rdebug-ide  -p 39767 -- '/auto/home2/liux14/workspace/sasevt/tools/qa/shared/tests/vtl/EVT/script/server' webrick > /auto/home2/liux14/.vim/tmp/ruby_debugger_output 2>&1 &
+Vim plugin, 18:02:52: Executing command: ruby /auto/home2/liux14/.vim/bin/ruby_debugger.rb 127.0.0.1 39767 39768 vim VIM "/auto/home2/liux14/.vim/tmp/ruby_debugger" posix 1 /auto/home2/liux14/.vim/tmp/ruby_debugger_log &
+Vim plugin, 18:02:52: Now we need to store PIDs of servers, retrieving them: 
+Vim plugin, 18:02:52: Trying to find PID of process on 39767 port, must_get_pid = 1
+Ruby_debugger.rb, 18:02:52 : Starting to connect by TCPSocket with host: 127.0.0.1 and port: 39767
+Vim plugin, 18:02:52: Trying to find listener of port 39767
+Ruby_debugger.rb, 18:02:52 : Connected with 127.0.0.1:39767 by TCPSocket by 0 repeats
+Vim plugin, 18:02:52: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Ruby_debugger.rb, 18:02:52 : Start TCPServer with host: 127.0.0.1 and port: 39768
+Ruby_debugger.rb, 18:02:52 : ERROR!!!: Address already in use - bind(2)
+Backtrace: /auto/home2/liux14/.vim/bin/ruby_debugger.rb:11:in `initialize'/auto/home2/liux14/.vim/bin/ruby_debugger.rb:11:in `new'/auto/home2/liux14/.vim/bin/ruby_debugger.rb:11:in `initialize'/auto/home2/liux14/.vim/bin/ruby_debugger.rb:180:in `new'/auto/home2/liux14/.vim/bin/ruby_debugger.rb:180
+Vim plugin, 18:02:52: Found pid - 
+Vim plugin, 18:02:52: Trying to find listener of port 39767
+Vim plugin, 18:02:52: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:52: Found pid - 
+Vim plugin, 18:02:52: Trying to find listener of port 39767
+Vim plugin, 18:02:52: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:52: Found pid - 
+Vim plugin, 18:02:52: Trying to find listener of port 39767
+Vim plugin, 18:02:52: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:52: Found pid - 
+Vim plugin, 18:02:52: Trying to find listener of port 39767
+Vim plugin, 18:02:52: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:52: Found pid - 
+Vim plugin, 18:02:52: Trying to find listener of port 39767
+Vim plugin, 18:02:52: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:52: Found pid - 
+Vim plugin, 18:02:52: Trying to find listener of port 39767
+Vim plugin, 18:02:52: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:52: Found pid - 
+Vim plugin, 18:02:52: Trying to find listener of port 39767
+Vim plugin, 18:02:52: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:52: Found pid - 
+Vim plugin, 18:02:52: Trying to find listener of port 39767
+Vim plugin, 18:02:52: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:53: Found pid - 
+Vim plugin, 18:02:53: Trying to find listener of port 39767
+Vim plugin, 18:02:53: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:53: Found pid - 
+Vim plugin, 18:02:53: Trying to find listener of port 39767
+Vim plugin, 18:02:53: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:53: Found pid - 
+Vim plugin, 18:02:53: Trying to find listener of port 39767
+Vim plugin, 18:02:53: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:53: Found pid - 
+Vim plugin, 18:02:53: Trying to find listener of port 39767
+Vim plugin, 18:02:53: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:53: Found pid - 
+Vim plugin, 18:02:53: Trying to find listener of port 39767
+Vim plugin, 18:02:53: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:53: Found pid - 
+Vim plugin, 18:02:53: Trying to find listener of port 39767
+Vim plugin, 18:02:53: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:53: Found pid - 
+Vim plugin, 18:02:53: Trying to find listener of port 39767
+Vim plugin, 18:02:53: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:53: Found pid - 
+Vim plugin, 18:02:53: Trying to find listener of port 39767
+Vim plugin, 18:02:53: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:53: Found pid - 
+Vim plugin, 18:02:54: Trying to find listener of port 39767
+Vim plugin, 18:02:54: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:54: Found pid - 
+Vim plugin, 18:02:54: Trying to find listener of port 39767
+Vim plugin, 18:02:54: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:54: Found pid - 
+Vim plugin, 18:02:54: Trying to find listener of port 39767
+Vim plugin, 18:02:54: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:54: Found pid - 
+Vim plugin, 18:02:54: Trying to find listener of port 39767
+Vim plugin, 18:02:54: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:54: Found pid - 
+Vim plugin, 18:02:54: Trying to find listener of port 39767
+Vim plugin, 18:02:54: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:54: Found pid - 
+Vim plugin, 18:02:54: Trying to find listener of port 39767
+Vim plugin, 18:02:54: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:54: Found pid - 
+Vim plugin, 18:02:54: Trying to find listener of port 39767
+Vim plugin, 18:02:54: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:54: Found pid - 
+Vim plugin, 18:02:54: Trying to find listener of port 39767
+Vim plugin, 18:02:54: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:54: Found pid - 
+Vim plugin, 18:02:54: Trying to find listener of port 39767
+Vim plugin, 18:02:54: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:55: Found pid - 
+Vim plugin, 18:02:55: Trying to find listener of port 39767
+Vim plugin, 18:02:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:55: Found pid - 
+Vim plugin, 18:02:55: Trying to find listener of port 39767
+Vim plugin, 18:02:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:55: Found pid - 
+Vim plugin, 18:02:55: Trying to find listener of port 39767
+Vim plugin, 18:02:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:55: Found pid - 
+Vim plugin, 18:02:55: Trying to find listener of port 39767
+Vim plugin, 18:02:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:55: Found pid - 
+Vim plugin, 18:02:55: Trying to find listener of port 39767
+Vim plugin, 18:02:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:55: Found pid - 
+Vim plugin, 18:02:55: Trying to find listener of port 39767
+Vim plugin, 18:02:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:55: Found pid - 
+Vim plugin, 18:02:55: Trying to find listener of port 39767
+Vim plugin, 18:02:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:55: Found pid - 
+Vim plugin, 18:02:55: Trying to find listener of port 39767
+Vim plugin, 18:02:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:55: Found pid - 
+Vim plugin, 18:02:56: Trying to find listener of port 39767
+Vim plugin, 18:02:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:56: Found pid - 
+Vim plugin, 18:02:56: Trying to find listener of port 39767
+Vim plugin, 18:02:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:56: Found pid - 
+Vim plugin, 18:02:56: Trying to find listener of port 39767
+Vim plugin, 18:02:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:56: Found pid - 
+Vim plugin, 18:02:56: Trying to find listener of port 39767
+Vim plugin, 18:02:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:56: Found pid - 
+Vim plugin, 18:02:56: Trying to find listener of port 39767
+Vim plugin, 18:02:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:56: Found pid - 
+Vim plugin, 18:02:56: Trying to find listener of port 39767
+Vim plugin, 18:02:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:56: Found pid - 
+Vim plugin, 18:02:56: Trying to find listener of port 39767
+Vim plugin, 18:02:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:56: Found pid - 
+Vim plugin, 18:02:56: Trying to find listener of port 39767
+Vim plugin, 18:02:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:56: Found pid - 
+Vim plugin, 18:02:57: Trying to find listener of port 39767
+Vim plugin, 18:02:57: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:57: Found pid - 
+Vim plugin, 18:02:57: Trying to find listener of port 39767
+Vim plugin, 18:02:57: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:57: Found pid - 
+Vim plugin, 18:02:57: Trying to find listener of port 39767
+Vim plugin, 18:02:57: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:57: Found pid - 
+Vim plugin, 18:02:57: Trying to find listener of port 39767
+Vim plugin, 18:02:57: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:57: Found pid - 
+Vim plugin, 18:02:57: Trying to find listener of port 39767
+Vim plugin, 18:02:57: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:57: Found pid - 
+Vim plugin, 18:02:57: Trying to find listener of port 39767
+Vim plugin, 18:02:57: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:57: Found pid - 
+Vim plugin, 18:02:57: Trying to find listener of port 39767
+Vim plugin, 18:02:57: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:57: Found pid - 
+Vim plugin, 18:02:57: Trying to find listener of port 39767
+Vim plugin, 18:02:57: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:57: Found pid - 
+Vim plugin, 18:02:57: Trying to find listener of port 39767
+Vim plugin, 18:02:57: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:57: Found pid - 
+Vim plugin, 18:02:57: Trying to find listener of port 39767
+Vim plugin, 18:02:57: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:57: Found pid - 
+Vim plugin, 18:02:57: Trying to find listener of port 39767
+Vim plugin, 18:02:57: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:57: Found pid - 
+Vim plugin, 18:02:57: Trying to find listener of port 39767
+Vim plugin, 18:02:57: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:57: Found pid - 
+Vim plugin, 18:02:57: Trying to find listener of port 39767
+Vim plugin, 18:02:57: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:58: Found pid - 
+Vim plugin, 18:02:58: Trying to find listener of port 39767
+Vim plugin, 18:02:58: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:58: Found pid - 
+Vim plugin, 18:02:58: Trying to find listener of port 39767
+Vim plugin, 18:02:58: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:58: Found pid - 
+Vim plugin, 18:02:58: Trying to find listener of port 39767
+Vim plugin, 18:02:58: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:58: Found pid - 
+Vim plugin, 18:02:58: Trying to find listener of port 39767
+Vim plugin, 18:02:58: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:58: Found pid - 
+Vim plugin, 18:02:58: Trying to find listener of port 39767
+Vim plugin, 18:02:58: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:58: Found pid - 
+Vim plugin, 18:02:58: Trying to find listener of port 39767
+Vim plugin, 18:02:58: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:58: Found pid - 
+Vim plugin, 18:02:58: Trying to find listener of port 39767
+Vim plugin, 18:02:58: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:02:58: Found pid - 
+Vim plugin, 18:03:12: Executing :Rdebugger...
+Vim plugin, 18:03:13: Initializing Server object, with variables: hostname: 127.0.0.1, rdebug_port: 39767, debugger_port: 39768, runtime_dir: /auto/home2/liux14/.vim, tmp_file: /auto/home2/liux14/.vim/tmp/ruby_debugger, output_file: /auto/home2/liux14/.vim/tmp/ruby_debugger_output
+Vim plugin, 18:03:13: Starting Server, command: "'/auto/home2/liux14/workspace/sasevt/tools/qa/shared/tests/vtl/EVT/new_evt.rb' "
+Vim plugin, 18:03:13: Trying to kill all old servers first
+Vim plugin, 18:03:13: Trying to find PID of process on 39767 port, must_get_pid = 0
+Vim plugin, 18:03:13: Trying to find listener of port 39767
+Vim plugin, 18:03:13: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:13: Found pid - 
+Vim plugin, 18:03:13: PID - , found by 0 repeats
+Vim plugin, 18:03:13: Trying to find PID of process on 39768 port, must_get_pid = 0
+Vim plugin, 18:03:13: Trying to find listener of port 39768
+Vim plugin, 18:03:13: Executing command: lsof -i tcp:39768 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:13: Found pid - 
+Vim plugin, 18:03:13: PID - , found by 0 repeats
+Vim plugin, 18:03:13: Servers are killed, trying to start new servers
+Vim plugin, 18:03:13: Executing command: rdebug-ide  -p 39767 -- '/auto/home2/liux14/workspace/sasevt/tools/qa/shared/tests/vtl/EVT/new_evt.rb'  > /auto/home2/liux14/.vim/tmp/ruby_debugger_output 2>&1 &
+Vim plugin, 18:03:13: Executing command: ruby /auto/home2/liux14/.vim/bin/ruby_debugger.rb 127.0.0.1 39767 39768 vim VIM "/auto/home2/liux14/.vim/tmp/ruby_debugger" posix 1 /auto/home2/liux14/.vim/tmp/ruby_debugger_log &
+Vim plugin, 18:03:13: Now we need to store PIDs of servers, retrieving them: 
+Vim plugin, 18:03:13: Trying to find PID of process on 39767 port, must_get_pid = 1
+Ruby_debugger.rb, 18:03:13 : Starting to connect by TCPSocket with host: 127.0.0.1 and port: 39767
+Vim plugin, 18:03:13: Trying to find listener of port 39767
+Ruby_debugger.rb, 18:03:13 : Connected with 127.0.0.1:39767 by TCPSocket by 0 repeats
+Vim plugin, 18:03:13: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Ruby_debugger.rb, 18:03:13 : Start TCPServer with host: 127.0.0.1 and port: 39768
+Ruby_debugger.rb, 18:03:13 : ERROR!!!: Address already in use - bind(2)
+Backtrace: /auto/home2/liux14/.vim/bin/ruby_debugger.rb:11:in `initialize'/auto/home2/liux14/.vim/bin/ruby_debugger.rb:11:in `new'/auto/home2/liux14/.vim/bin/ruby_debugger.rb:11:in `initialize'/auto/home2/liux14/.vim/bin/ruby_debugger.rb:180:in `new'/auto/home2/liux14/.vim/bin/ruby_debugger.rb:180
+Vim plugin, 18:03:13: Found pid - 
+Vim plugin, 18:03:13: Trying to find listener of port 39767
+Vim plugin, 18:03:13: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:13: Found pid - 
+Vim plugin, 18:03:13: Trying to find listener of port 39767
+Vim plugin, 18:03:13: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:13: Found pid - 
+Vim plugin, 18:03:13: Trying to find listener of port 39767
+Vim plugin, 18:03:13: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:13: Found pid - 
+Vim plugin, 18:03:13: Trying to find listener of port 39767
+Vim plugin, 18:03:13: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:13: Found pid - 
+Vim plugin, 18:03:13: Trying to find listener of port 39767
+Vim plugin, 18:03:13: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:13: Found pid - 
+Vim plugin, 18:03:13: Trying to find listener of port 39767
+Vim plugin, 18:03:13: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:13: Found pid - 
+Vim plugin, 18:03:13: Trying to find listener of port 39767
+Vim plugin, 18:03:13: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:13: Found pid - 
+Vim plugin, 18:03:13: Trying to find listener of port 39767
+Vim plugin, 18:03:13: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:13: Found pid - 
+Vim plugin, 18:03:13: Trying to find listener of port 39767
+Vim plugin, 18:03:13: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:13: Found pid - 
+Vim plugin, 18:03:13: Trying to find listener of port 39767
+Vim plugin, 18:03:13: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:13: Found pid - 
+Vim plugin, 18:03:13: Trying to find listener of port 39767
+Vim plugin, 18:03:13: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:13: Found pid - 
+Vim plugin, 18:03:13: Trying to find listener of port 39767
+Vim plugin, 18:03:13: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:13: Found pid - 
+Vim plugin, 18:03:13: Trying to find listener of port 39767
+Vim plugin, 18:03:13: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:13: Found pid - 
+Vim plugin, 18:03:13: Trying to find listener of port 39767
+Vim plugin, 18:03:13: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:13: Found pid - 
+Vim plugin, 18:03:13: Trying to find listener of port 39767
+Vim plugin, 18:03:13: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:13: Found pid - 
+Vim plugin, 18:03:13: Trying to find listener of port 39767
+Vim plugin, 18:03:13: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:13: Found pid - 
+Vim plugin, 18:03:13: Trying to find listener of port 39767
+Vim plugin, 18:03:13: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:13: Found pid - 
+Vim plugin, 18:03:13: Trying to find listener of port 39767
+Vim plugin, 18:03:13: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:13: Found pid - 
+Vim plugin, 18:03:14: Trying to find listener of port 39767
+Vim plugin, 18:03:14: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:14: Found pid - 
+Vim plugin, 18:03:14: Trying to find listener of port 39767
+Vim plugin, 18:03:14: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:14: Found pid - 
+Vim plugin, 18:03:14: Trying to find listener of port 39767
+Vim plugin, 18:03:14: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:14: Found pid - 
+Vim plugin, 18:03:14: Trying to find listener of port 39767
+Vim plugin, 18:03:14: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:15: Found pid - 
+Vim plugin, 18:03:15: Trying to find listener of port 39767
+Vim plugin, 18:03:15: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:15: Found pid - 
+Vim plugin, 18:03:15: Trying to find listener of port 39767
+Vim plugin, 18:03:15: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:15: Found pid - 
+Vim plugin, 18:03:15: Trying to find listener of port 39767
+Vim plugin, 18:03:15: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:15: Found pid - 
+Vim plugin, 18:03:15: Trying to find listener of port 39767
+Vim plugin, 18:03:15: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:15: Found pid - 
+Vim plugin, 18:03:15: Trying to find listener of port 39767
+Vim plugin, 18:03:15: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:15: Found pid - 
+Vim plugin, 18:03:15: Trying to find listener of port 39767
+Vim plugin, 18:03:15: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:15: Found pid - 
+Vim plugin, 18:03:15: Trying to find listener of port 39767
+Vim plugin, 18:03:15: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:15: Found pid - 
+Vim plugin, 18:03:15: Trying to find listener of port 39767
+Vim plugin, 18:03:15: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:15: Found pid - 
+Vim plugin, 18:03:15: Trying to find listener of port 39767
+Vim plugin, 18:03:15: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:15: Found pid - 
+Vim plugin, 18:03:15: Trying to find listener of port 39767
+Vim plugin, 18:03:15: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:15: Found pid - 
+Vim plugin, 18:03:15: Trying to find listener of port 39767
+Vim plugin, 18:03:15: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:15: Found pid - 
+Vim plugin, 18:03:15: Trying to find listener of port 39767
+Vim plugin, 18:03:15: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:15: Found pid - 
+Vim plugin, 18:03:16: Trying to find listener of port 39767
+Vim plugin, 18:03:16: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:16: Found pid - 
+Vim plugin, 18:03:16: Trying to find listener of port 39767
+Vim plugin, 18:03:16: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:16: Found pid - 
+Vim plugin, 18:03:16: Trying to find listener of port 39767
+Vim plugin, 18:03:16: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:16: Found pid - 
+Vim plugin, 18:03:16: Trying to find listener of port 39767
+Vim plugin, 18:03:16: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:16: Found pid - 
+Vim plugin, 18:03:16: Trying to find listener of port 39767
+Vim plugin, 18:03:16: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:16: Found pid - 
+Vim plugin, 18:03:16: Trying to find listener of port 39767
+Vim plugin, 18:03:16: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:16: Found pid - 
+Vim plugin, 18:03:16: Trying to find listener of port 39767
+Vim plugin, 18:03:16: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:16: Found pid - 
+Vim plugin, 18:03:16: Trying to find listener of port 39767
+Vim plugin, 18:03:16: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:16: Found pid - 
+Vim plugin, 18:03:16: Trying to find listener of port 39767
+Vim plugin, 18:03:16: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:16: Found pid - 
+Vim plugin, 18:03:16: Trying to find listener of port 39767
+Vim plugin, 18:03:16: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:16: Found pid - 
+Vim plugin, 18:03:16: Trying to find listener of port 39767
+Vim plugin, 18:03:16: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:16: Found pid - 
+Vim plugin, 18:03:16: Trying to find listener of port 39767
+Vim plugin, 18:03:16: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:16: Found pid - 
+Vim plugin, 18:03:16: Trying to find listener of port 39767
+Vim plugin, 18:03:17: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:17: Found pid - 
+Vim plugin, 18:03:17: Trying to find listener of port 39767
+Vim plugin, 18:03:17: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:17: Found pid - 
+Vim plugin, 18:03:17: Trying to find listener of port 39767
+Vim plugin, 18:03:17: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:17: Found pid - 
+Vim plugin, 18:03:17: Trying to find listener of port 39767
+Vim plugin, 18:03:17: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:17: Found pid - 
+Vim plugin, 18:03:17: Trying to find listener of port 39767
+Vim plugin, 18:03:17: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:17: Found pid - 
+Vim plugin, 18:03:17: Trying to find listener of port 39767
+Vim plugin, 18:03:17: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:17: Found pid - 
+Vim plugin, 18:03:17: Trying to find listener of port 39767
+Vim plugin, 18:03:17: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:17: Found pid - 
+Vim plugin, 18:03:17: Trying to find listener of port 39767
+Vim plugin, 18:03:17: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:17: Found pid - 
+Vim plugin, 18:03:17: Trying to find listener of port 39767
+Vim plugin, 18:03:17: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:17: Found pid - 
+Vim plugin, 18:03:17: Trying to find listener of port 39767
+Vim plugin, 18:03:17: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:17: Found pid - 
+Vim plugin, 18:03:17: Trying to find listener of port 39767
+Vim plugin, 18:03:17: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:17: Found pid - 
+Vim plugin, 18:03:17: Trying to find listener of port 39767
+Vim plugin, 18:03:17: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:17: Found pid - 
+Vim plugin, 18:03:17: Trying to find listener of port 39767
+Vim plugin, 18:03:17: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:18: Found pid - 
+Vim plugin, 18:03:18: Trying to find listener of port 39767
+Vim plugin, 18:03:18: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:18: Found pid - 
+Vim plugin, 18:03:18: Trying to find listener of port 39767
+Vim plugin, 18:03:18: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:18: Found pid - 
+Vim plugin, 18:03:18: Trying to find listener of port 39767
+Vim plugin, 18:03:18: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:18: Found pid - 
+Vim plugin, 18:03:18: Trying to find listener of port 39767
+Vim plugin, 18:03:18: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:18: Found pid - 
+Vim plugin, 18:03:18: Trying to find listener of port 39767
+Vim plugin, 18:03:18: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:18: Found pid - 
+Vim plugin, 18:03:18: Trying to find listener of port 39767
+Vim plugin, 18:03:18: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:18: Found pid - 
+Vim plugin, 18:03:18: Trying to find listener of port 39767
+Vim plugin, 18:03:18: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:18: Found pid - 
+Vim plugin, 18:03:18: Trying to find listener of port 39767
+Vim plugin, 18:03:18: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:18: Found pid - 
+Vim plugin, 18:03:18: Trying to find listener of port 39767
+Vim plugin, 18:03:18: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:18: Found pid - 
+Vim plugin, 18:03:18: Trying to find listener of port 39767
+Vim plugin, 18:03:18: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:18: Found pid - 
+Vim plugin, 18:03:18: Trying to find listener of port 39767
+Vim plugin, 18:03:18: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:18: Found pid - 
+Vim plugin, 18:03:19: Trying to find listener of port 39767
+Vim plugin, 18:03:19: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:19: Found pid - 
+Vim plugin, 18:03:19: Trying to find listener of port 39767
+Vim plugin, 18:03:19: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:19: Found pid - 
+Vim plugin, 18:03:19: Trying to find listener of port 39767
+Vim plugin, 18:03:19: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:19: Found pid - 
+Vim plugin, 18:03:19: Trying to find listener of port 39767
+Vim plugin, 18:03:19: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:19: Found pid - 
+Vim plugin, 18:03:19: Trying to find listener of port 39767
+Vim plugin, 18:03:19: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:19: Found pid - 
+Vim plugin, 18:03:19: Trying to find listener of port 39767
+Vim plugin, 18:03:19: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:19: Found pid - 
+Vim plugin, 18:03:19: Trying to find listener of port 39767
+Vim plugin, 18:03:19: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:19: Found pid - 
+Vim plugin, 18:03:19: Trying to find listener of port 39767
+Vim plugin, 18:03:19: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:19: Found pid - 
+Vim plugin, 18:03:19: Trying to find listener of port 39767
+Vim plugin, 18:03:19: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:19: Found pid - 
+Vim plugin, 18:03:19: Trying to find listener of port 39767
+Vim plugin, 18:03:19: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:19: Found pid - 
+Vim plugin, 18:03:19: Trying to find listener of port 39767
+Vim plugin, 18:03:19: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:19: Found pid - 
+Vim plugin, 18:03:19: Trying to find listener of port 39767
+Vim plugin, 18:03:19: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:19: Found pid - 
+Vim plugin, 18:03:19: Trying to find listener of port 39767
+Vim plugin, 18:03:19: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:19: Found pid - 
+Vim plugin, 18:03:19: Trying to find listener of port 39767
+Vim plugin, 18:03:19: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:20: Found pid - 
+Vim plugin, 18:03:20: Trying to find listener of port 39767
+Vim plugin, 18:03:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:20: Found pid - 
+Vim plugin, 18:03:20: Trying to find listener of port 39767
+Vim plugin, 18:03:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:20: Found pid - 
+Vim plugin, 18:03:20: Trying to find listener of port 39767
+Vim plugin, 18:03:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:20: Found pid - 
+Vim plugin, 18:03:20: Trying to find listener of port 39767
+Vim plugin, 18:03:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:20: Found pid - 
+Vim plugin, 18:03:20: Trying to find listener of port 39767
+Vim plugin, 18:03:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:20: Found pid - 
+Vim plugin, 18:03:20: Trying to find listener of port 39767
+Vim plugin, 18:03:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:20: Found pid - 
+Vim plugin, 18:03:20: Trying to find listener of port 39767
+Vim plugin, 18:03:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:20: Found pid - 
+Vim plugin, 18:03:20: Trying to find listener of port 39767
+Vim plugin, 18:03:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:20: Found pid - 
+Vim plugin, 18:03:20: Trying to find listener of port 39767
+Vim plugin, 18:03:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:20: Found pid - 
+Vim plugin, 18:03:20: Trying to find listener of port 39767
+Vim plugin, 18:03:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:20: Found pid - 
+Vim plugin, 18:03:20: Trying to find listener of port 39767
+Vim plugin, 18:03:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:20: Found pid - 
+Vim plugin, 18:03:20: Trying to find listener of port 39767
+Vim plugin, 18:03:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:20: Found pid - 
+Vim plugin, 18:03:20: Trying to find listener of port 39767
+Vim plugin, 18:03:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:20: Found pid - 
+Vim plugin, 18:03:20: Trying to find listener of port 39767
+Vim plugin, 18:03:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:20: Found pid - 
+Vim plugin, 18:03:20: Trying to find listener of port 39767
+Vim plugin, 18:03:20: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:21: Found pid - 
+Vim plugin, 18:03:21: Trying to find listener of port 39767
+Vim plugin, 18:03:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:21: Found pid - 
+Vim plugin, 18:03:21: Trying to find listener of port 39767
+Vim plugin, 18:03:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:21: Found pid - 
+Vim plugin, 18:03:21: Trying to find listener of port 39767
+Vim plugin, 18:03:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:21: Found pid - 
+Vim plugin, 18:03:21: Trying to find listener of port 39767
+Vim plugin, 18:03:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:21: Found pid - 
+Vim plugin, 18:03:21: Trying to find listener of port 39767
+Vim plugin, 18:03:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:21: Found pid - 
+Vim plugin, 18:03:21: Trying to find listener of port 39767
+Vim plugin, 18:03:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:21: Found pid - 
+Vim plugin, 18:03:21: Trying to find listener of port 39767
+Vim plugin, 18:03:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:21: Found pid - 
+Vim plugin, 18:03:21: Trying to find listener of port 39767
+Vim plugin, 18:03:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:21: Found pid - 
+Vim plugin, 18:03:21: Trying to find listener of port 39767
+Vim plugin, 18:03:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:21: Found pid - 
+Vim plugin, 18:03:21: Trying to find listener of port 39767
+Vim plugin, 18:03:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:21: Found pid - 
+Vim plugin, 18:03:21: Trying to find listener of port 39767
+Vim plugin, 18:03:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:21: Found pid - 
+Vim plugin, 18:03:21: Trying to find listener of port 39767
+Vim plugin, 18:03:21: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:22: Found pid - 
+Vim plugin, 18:03:22: Trying to find listener of port 39767
+Vim plugin, 18:03:22: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:22: Found pid - 
+Vim plugin, 18:03:22: Trying to find listener of port 39767
+Vim plugin, 18:03:22: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:22: Found pid - 
+Vim plugin, 18:03:22: Trying to find listener of port 39767
+Vim plugin, 18:03:22: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:22: Found pid - 
+Vim plugin, 18:03:22: Trying to find listener of port 39767
+Vim plugin, 18:03:22: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:22: Found pid - 
+Vim plugin, 18:03:22: Trying to find listener of port 39767
+Vim plugin, 18:03:22: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:22: Found pid - 
+Vim plugin, 18:03:22: Trying to find listener of port 39767
+Vim plugin, 18:03:22: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:22: Found pid - 
+Vim plugin, 18:03:22: Trying to find listener of port 39767
+Vim plugin, 18:03:22: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:22: Found pid - 
+Vim plugin, 18:03:22: Trying to find listener of port 39767
+Vim plugin, 18:03:22: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:22: Found pid - 
+Vim plugin, 18:03:22: Trying to find listener of port 39767
+Vim plugin, 18:03:22: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:22: Found pid - 
+Vim plugin, 18:03:23: Trying to find listener of port 39767
+Vim plugin, 18:03:23: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:23: Found pid - 
+Vim plugin, 18:03:23: Trying to find listener of port 39767
+Vim plugin, 18:03:23: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:23: Found pid - 
+Vim plugin, 18:03:23: Trying to find listener of port 39767
+Vim plugin, 18:03:23: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:23: Found pid - 
+Vim plugin, 18:03:23: Trying to find listener of port 39767
+Vim plugin, 18:03:23: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:23: Found pid - 
+Vim plugin, 18:03:23: Trying to find listener of port 39767
+Vim plugin, 18:03:23: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:23: Found pid - 
+Vim plugin, 18:03:23: Trying to find listener of port 39767
+Vim plugin, 18:03:23: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:23: Found pid - 
+Vim plugin, 18:03:23: Trying to find listener of port 39767
+Vim plugin, 18:03:23: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:23: Found pid - 
+Vim plugin, 18:03:23: Trying to find listener of port 39767
+Vim plugin, 18:03:23: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:23: Found pid - 
+Vim plugin, 18:03:23: Trying to find listener of port 39767
+Vim plugin, 18:03:23: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:23: Found pid - 
+Vim plugin, 18:03:23: Trying to find listener of port 39767
+Vim plugin, 18:03:24: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:24: Found pid - 
+Vim plugin, 18:03:24: Trying to find listener of port 39767
+Vim plugin, 18:03:24: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:24: Found pid - 
+Vim plugin, 18:03:24: Trying to find listener of port 39767
+Vim plugin, 18:03:24: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:24: Found pid - 
+Vim plugin, 18:03:24: Trying to find listener of port 39767
+Vim plugin, 18:03:24: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:24: Found pid - 
+Vim plugin, 18:03:43: Executing :Rdebugger...
+Vim plugin, 18:03:43: Initializing Server object, with variables: hostname: 127.0.0.1, rdebug_port: 39767, debugger_port: 39768, runtime_dir: /auto/home2/liux14/.vim, tmp_file: /auto/home2/liux14/.vim/tmp/ruby_debugger, output_file: /auto/home2/liux14/.vim/tmp/ruby_debugger_output
+Vim plugin, 18:03:43: Starting Server, command: "'/auto/home2/liux14/workspace/sasevt/tools/qa/shared/tests/vtl/EVT/script/server' webrick"
+Vim plugin, 18:03:43: Trying to kill all old servers first
+Vim plugin, 18:03:43: Trying to find PID of process on 39767 port, must_get_pid = 0
+Vim plugin, 18:03:43: Trying to find listener of port 39767
+Vim plugin, 18:03:43: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:43: Found pid - 
+Vim plugin, 18:03:43: PID - , found by 0 repeats
+Vim plugin, 18:03:43: Trying to find PID of process on 39768 port, must_get_pid = 0
+Vim plugin, 18:03:43: Trying to find listener of port 39768
+Vim plugin, 18:03:43: Executing command: lsof -i tcp:39768 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:43: Found pid - 
+Vim plugin, 18:03:43: PID - , found by 0 repeats
+Vim plugin, 18:03:43: Servers are killed, trying to start new servers
+Vim plugin, 18:03:43: Executing command: rdebug-ide  -p 39767 -- '/auto/home2/liux14/workspace/sasevt/tools/qa/shared/tests/vtl/EVT/script/server' webrick > /auto/home2/liux14/.vim/tmp/ruby_debugger_output 2>&1 &
+Vim plugin, 18:03:43: Executing command: ruby /auto/home2/liux14/.vim/bin/ruby_debugger.rb 127.0.0.1 39767 39768 vim VIM "/auto/home2/liux14/.vim/tmp/ruby_debugger" posix 1 /auto/home2/liux14/.vim/tmp/ruby_debugger_log &
+Vim plugin, 18:03:43: Now we need to store PIDs of servers, retrieving them: 
+Ruby_debugger.rb, 18:03:43 : Starting to connect by TCPSocket with host: 127.0.0.1 and port: 39767
+Vim plugin, 18:03:43: Trying to find PID of process on 39767 port, must_get_pid = 1
+Ruby_debugger.rb, 18:03:43 : Connected with 127.0.0.1:39767 by TCPSocket by 0 repeats
+Ruby_debugger.rb, 18:03:43 : Start TCPServer with host: 127.0.0.1 and port: 39768
+Vim plugin, 18:03:43: Trying to find listener of port 39767
+Ruby_debugger.rb, 18:03:43 : ERROR!!!: Address already in use - bind(2)
+Backtrace: /auto/home2/liux14/.vim/bin/ruby_debugger.rb:11:in `initialize'/auto/home2/liux14/.vim/bin/ruby_debugger.rb:11:in `new'/auto/home2/liux14/.vim/bin/ruby_debugger.rb:11:in `initialize'/auto/home2/liux14/.vim/bin/ruby_debugger.rb:180:in `new'/auto/home2/liux14/.vim/bin/ruby_debugger.rb:180
+Vim plugin, 18:03:43: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:43: Found pid - 
+Vim plugin, 18:03:43: Trying to find listener of port 39767
+Vim plugin, 18:03:43: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:44: Found pid - 
+Vim plugin, 18:03:44: Trying to find listener of port 39767
+Vim plugin, 18:03:44: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:44: Found pid - 
+Vim plugin, 18:03:44: Trying to find listener of port 39767
+Vim plugin, 18:03:44: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:44: Found pid - 
+Vim plugin, 18:03:44: Trying to find listener of port 39767
+Vim plugin, 18:03:44: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:44: Found pid - 
+Vim plugin, 18:03:44: Trying to find listener of port 39767
+Vim plugin, 18:03:44: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:44: Found pid - 
+Vim plugin, 18:03:44: Trying to find listener of port 39767
+Vim plugin, 18:03:44: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:44: Found pid - 
+Vim plugin, 18:03:44: Trying to find listener of port 39767
+Vim plugin, 18:03:44: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:44: Found pid - 
+Vim plugin, 18:03:44: Trying to find listener of port 39767
+Vim plugin, 18:03:44: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:44: Found pid - 
+Vim plugin, 18:03:44: Trying to find listener of port 39767
+Vim plugin, 18:03:44: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:44: Found pid - 
+Vim plugin, 18:03:44: Trying to find listener of port 39767
+Vim plugin, 18:03:44: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:44: Found pid - 
+Vim plugin, 18:03:44: Trying to find listener of port 39767
+Vim plugin, 18:03:44: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:44: Found pid - 
+Vim plugin, 18:03:44: Trying to find listener of port 39767
+Vim plugin, 18:03:44: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:44: Found pid - 
+Vim plugin, 18:03:44: Trying to find listener of port 39767
+Vim plugin, 18:03:44: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:44: Found pid - 
+Vim plugin, 18:03:44: Trying to find listener of port 39767
+Vim plugin, 18:03:44: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:44: Found pid - 
+Vim plugin, 18:03:44: Trying to find listener of port 39767
+Vim plugin, 18:03:45: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:45: Found pid - 
+Vim plugin, 18:03:45: Trying to find listener of port 39767
+Vim plugin, 18:03:45: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:45: Found pid - 
+Vim plugin, 18:03:45: Trying to find listener of port 39767
+Vim plugin, 18:03:45: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:45: Found pid - 
+Vim plugin, 18:03:45: Trying to find listener of port 39767
+Vim plugin, 18:03:45: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:45: Found pid - 
+Vim plugin, 18:03:45: Trying to find listener of port 39767
+Vim plugin, 18:03:45: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:45: Found pid - 
+Vim plugin, 18:03:45: Trying to find listener of port 39767
+Vim plugin, 18:03:45: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:45: Found pid - 
+Vim plugin, 18:03:45: Trying to find listener of port 39767
+Vim plugin, 18:03:45: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:45: Found pid - 
+Vim plugin, 18:03:45: Trying to find listener of port 39767
+Vim plugin, 18:03:45: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:45: Found pid - 
+Vim plugin, 18:03:45: Trying to find listener of port 39767
+Vim plugin, 18:03:45: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:45: Found pid - 
+Vim plugin, 18:03:45: Trying to find listener of port 39767
+Vim plugin, 18:03:45: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:45: Found pid - 
+Vim plugin, 18:03:45: Trying to find listener of port 39767
+Vim plugin, 18:03:45: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:45: Found pid - 
+Vim plugin, 18:03:45: Trying to find listener of port 39767
+Vim plugin, 18:03:45: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:45: Found pid - 
+Vim plugin, 18:03:45: Trying to find listener of port 39767
+Vim plugin, 18:03:45: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:45: Found pid - 
+Vim plugin, 18:03:45: Trying to find listener of port 39767
+Vim plugin, 18:03:45: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:46: Found pid - 
+Vim plugin, 18:03:46: Trying to find listener of port 39767
+Vim plugin, 18:03:46: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:46: Found pid - 
+Vim plugin, 18:03:46: Trying to find listener of port 39767
+Vim plugin, 18:03:46: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:46: Found pid - 
+Vim plugin, 18:03:46: Trying to find listener of port 39767
+Vim plugin, 18:03:46: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:46: Found pid - 
+Vim plugin, 18:03:46: Trying to find listener of port 39767
+Vim plugin, 18:03:46: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:46: Found pid - 
+Vim plugin, 18:03:46: Trying to find listener of port 39767
+Vim plugin, 18:03:46: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:46: Found pid - 
+Vim plugin, 18:03:46: Trying to find listener of port 39767
+Vim plugin, 18:03:46: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:46: Found pid - 
+Vim plugin, 18:03:46: Trying to find listener of port 39767
+Vim plugin, 18:03:46: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:46: Found pid - 
+Vim plugin, 18:03:46: Trying to find listener of port 39767
+Vim plugin, 18:03:46: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:46: Found pid - 
+Vim plugin, 18:03:46: Trying to find listener of port 39767
+Vim plugin, 18:03:46: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:46: Found pid - 
+Vim plugin, 18:03:46: Trying to find listener of port 39767
+Vim plugin, 18:03:46: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:46: Found pid - 
+Vim plugin, 18:03:46: Trying to find listener of port 39767
+Vim plugin, 18:03:46: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:46: Found pid - 
+Vim plugin, 18:03:46: Trying to find listener of port 39767
+Vim plugin, 18:03:46: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:46: Found pid - 
+Vim plugin, 18:03:46: Trying to find listener of port 39767
+Vim plugin, 18:03:46: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:46: Found pid - 
+Vim plugin, 18:03:46: Trying to find listener of port 39767
+Vim plugin, 18:03:46: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:46: Found pid - 
+Vim plugin, 18:03:46: Trying to find listener of port 39767
+Vim plugin, 18:03:46: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:46: Found pid - 
+Vim plugin, 18:03:46: Trying to find listener of port 39767
+Vim plugin, 18:03:46: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:46: Found pid - 
+Vim plugin, 18:03:46: Trying to find listener of port 39767
+Vim plugin, 18:03:46: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:46: Found pid - 
+Vim plugin, 18:03:46: Trying to find listener of port 39767
+Vim plugin, 18:03:46: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:46: Found pid - 
+Vim plugin, 18:03:47: Trying to find listener of port 39767
+Vim plugin, 18:03:47: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:47: Found pid - 
+Vim plugin, 18:03:47: Trying to find listener of port 39767
+Vim plugin, 18:03:47: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:47: Found pid - 
+Vim plugin, 18:03:47: Trying to find listener of port 39767
+Vim plugin, 18:03:47: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:47: Found pid - 
+Vim plugin, 18:03:47: Trying to find listener of port 39767
+Vim plugin, 18:03:47: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:47: Found pid - 
+Vim plugin, 18:03:47: Trying to find listener of port 39767
+Vim plugin, 18:03:47: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:47: Found pid - 
+Vim plugin, 18:03:47: Trying to find listener of port 39767
+Vim plugin, 18:03:47: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:47: Found pid - 
+Vim plugin, 18:03:47: Trying to find listener of port 39767
+Vim plugin, 18:03:47: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:47: Found pid - 
+Vim plugin, 18:03:47: Trying to find listener of port 39767
+Vim plugin, 18:03:47: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:47: Found pid - 
+Vim plugin, 18:03:47: Trying to find listener of port 39767
+Vim plugin, 18:03:47: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:47: Found pid - 
+Vim plugin, 18:03:47: Trying to find listener of port 39767
+Vim plugin, 18:03:47: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:47: Found pid - 
+Vim plugin, 18:03:47: Trying to find listener of port 39767
+Vim plugin, 18:03:47: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:47: Found pid - 
+Vim plugin, 18:03:47: Trying to find listener of port 39767
+Vim plugin, 18:03:47: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:47: Found pid - 
+Vim plugin, 18:03:47: Trying to find listener of port 39767
+Vim plugin, 18:03:47: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:47: Found pid - 
+Vim plugin, 18:03:47: Trying to find listener of port 39767
+Vim plugin, 18:03:47: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:47: Found pid - 
+Vim plugin, 18:03:47: Trying to find listener of port 39767
+Vim plugin, 18:03:47: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:48: Found pid - 
+Vim plugin, 18:03:48: Trying to find listener of port 39767
+Vim plugin, 18:03:48: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:48: Found pid - 
+Vim plugin, 18:03:48: Trying to find listener of port 39767
+Vim plugin, 18:03:48: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:48: Found pid - 
+Vim plugin, 18:03:48: Trying to find listener of port 39767
+Vim plugin, 18:03:48: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:48: Found pid - 
+Vim plugin, 18:03:48: Trying to find listener of port 39767
+Vim plugin, 18:03:48: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:48: Found pid - 
+Vim plugin, 18:03:48: Trying to find listener of port 39767
+Vim plugin, 18:03:48: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:48: Found pid - 
+Vim plugin, 18:03:48: Trying to find listener of port 39767
+Vim plugin, 18:03:48: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:48: Found pid - 
+Vim plugin, 18:03:48: Trying to find listener of port 39767
+Vim plugin, 18:03:48: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:48: Found pid - 
+Vim plugin, 18:03:48: Trying to find listener of port 39767
+Vim plugin, 18:03:48: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:48: Found pid - 
+Vim plugin, 18:03:48: Trying to find listener of port 39767
+Vim plugin, 18:03:48: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:48: Found pid - 
+Vim plugin, 18:03:48: Trying to find listener of port 39767
+Vim plugin, 18:03:48: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:48: Found pid - 
+Vim plugin, 18:03:48: Trying to find listener of port 39767
+Vim plugin, 18:03:48: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:48: Found pid - 
+Vim plugin, 18:03:48: Trying to find listener of port 39767
+Vim plugin, 18:03:49: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:49: Found pid - 
+Vim plugin, 18:03:49: Trying to find listener of port 39767
+Vim plugin, 18:03:49: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:49: Found pid - 
+Vim plugin, 18:03:49: Trying to find listener of port 39767
+Vim plugin, 18:03:49: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:49: Found pid - 
+Vim plugin, 18:03:49: Trying to find listener of port 39767
+Vim plugin, 18:03:49: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:49: Found pid - 
+Vim plugin, 18:03:49: Trying to find listener of port 39767
+Vim plugin, 18:03:49: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:49: Found pid - 
+Vim plugin, 18:03:49: Trying to find listener of port 39767
+Vim plugin, 18:03:49: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:49: Found pid - 
+Vim plugin, 18:03:49: Trying to find listener of port 39767
+Vim plugin, 18:03:49: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:49: Found pid - 
+Vim plugin, 18:03:49: Trying to find listener of port 39767
+Vim plugin, 18:03:49: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:49: Found pid - 
+Vim plugin, 18:03:49: Trying to find listener of port 39767
+Vim plugin, 18:03:49: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:49: Found pid - 
+Vim plugin, 18:03:49: Trying to find listener of port 39767
+Vim plugin, 18:03:49: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:50: Found pid - 
+Vim plugin, 18:03:50: Trying to find listener of port 39767
+Vim plugin, 18:03:50: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:50: Found pid - 
+Vim plugin, 18:03:50: Trying to find listener of port 39767
+Vim plugin, 18:03:50: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:50: Found pid - 
+Vim plugin, 18:03:50: Trying to find listener of port 39767
+Vim plugin, 18:03:50: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:50: Found pid - 
+Vim plugin, 18:03:50: Trying to find listener of port 39767
+Vim plugin, 18:03:50: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:50: Found pid - 
+Vim plugin, 18:03:50: Trying to find listener of port 39767
+Vim plugin, 18:03:50: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:50: Found pid - 
+Vim plugin, 18:03:50: Trying to find listener of port 39767
+Vim plugin, 18:03:50: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:50: Found pid - 
+Vim plugin, 18:03:50: Trying to find listener of port 39767
+Vim plugin, 18:03:50: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:50: Found pid - 
+Vim plugin, 18:03:50: Trying to find listener of port 39767
+Vim plugin, 18:03:50: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:50: Found pid - 
+Vim plugin, 18:03:50: Trying to find listener of port 39767
+Vim plugin, 18:03:51: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:51: Found pid - 
+Vim plugin, 18:03:51: Trying to find listener of port 39767
+Vim plugin, 18:03:51: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:51: Found pid - 
+Vim plugin, 18:03:51: Trying to find listener of port 39767
+Vim plugin, 18:03:51: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:51: Found pid - 
+Vim plugin, 18:03:51: Trying to find listener of port 39767
+Vim plugin, 18:03:51: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:51: Found pid - 
+Vim plugin, 18:03:51: Trying to find listener of port 39767
+Vim plugin, 18:03:51: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:51: Found pid - 
+Vim plugin, 18:03:51: Trying to find listener of port 39767
+Vim plugin, 18:03:51: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:51: Found pid - 
+Vim plugin, 18:03:51: Trying to find listener of port 39767
+Vim plugin, 18:03:51: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:51: Found pid - 
+Vim plugin, 18:03:51: Trying to find listener of port 39767
+Vim plugin, 18:03:51: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:51: Found pid - 
+Vim plugin, 18:03:51: Trying to find listener of port 39767
+Vim plugin, 18:03:51: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:51: Found pid - 
+Vim plugin, 18:03:51: Trying to find listener of port 39767
+Vim plugin, 18:03:51: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:51: Found pid - 
+Vim plugin, 18:03:51: Trying to find listener of port 39767
+Vim plugin, 18:03:51: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:51: Found pid - 
+Vim plugin, 18:03:51: Trying to find listener of port 39767
+Vim plugin, 18:03:51: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:51: Found pid - 
+Vim plugin, 18:03:51: Trying to find listener of port 39767
+Vim plugin, 18:03:51: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:51: Found pid - 
+Vim plugin, 18:03:52: Trying to find listener of port 39767
+Vim plugin, 18:03:52: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:52: Found pid - 
+Vim plugin, 18:03:52: Trying to find listener of port 39767
+Vim plugin, 18:03:52: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:52: Found pid - 
+Vim plugin, 18:03:52: Trying to find listener of port 39767
+Vim plugin, 18:03:52: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:52: Found pid - 
+Vim plugin, 18:03:52: Trying to find listener of port 39767
+Vim plugin, 18:03:52: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:52: Found pid - 
+Vim plugin, 18:03:52: Trying to find listener of port 39767
+Vim plugin, 18:03:52: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:52: Found pid - 
+Vim plugin, 18:03:52: Trying to find listener of port 39767
+Vim plugin, 18:03:52: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:52: Found pid - 
+Vim plugin, 18:03:52: Trying to find listener of port 39767
+Vim plugin, 18:03:52: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:52: Found pid - 
+Vim plugin, 18:03:52: Trying to find listener of port 39767
+Vim plugin, 18:03:52: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:52: Found pid - 
+Vim plugin, 18:03:52: Trying to find listener of port 39767
+Vim plugin, 18:03:52: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:52: Found pid - 
+Vim plugin, 18:03:53: Trying to find listener of port 39767
+Vim plugin, 18:03:53: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:53: Found pid - 
+Vim plugin, 18:03:53: Trying to find listener of port 39767
+Vim plugin, 18:03:53: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:53: Found pid - 
+Vim plugin, 18:03:53: Trying to find listener of port 39767
+Vim plugin, 18:03:53: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:53: Found pid - 
+Vim plugin, 18:03:53: Trying to find listener of port 39767
+Vim plugin, 18:03:53: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:53: Found pid - 
+Vim plugin, 18:03:53: Trying to find listener of port 39767
+Vim plugin, 18:03:53: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:53: Found pid - 
+Vim plugin, 18:03:53: Trying to find listener of port 39767
+Vim plugin, 18:03:53: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:53: Found pid - 
+Vim plugin, 18:03:53: Trying to find listener of port 39767
+Vim plugin, 18:03:53: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:53: Found pid - 
+Vim plugin, 18:03:53: Trying to find listener of port 39767
+Vim plugin, 18:03:53: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:53: Found pid - 
+Vim plugin, 18:03:53: Trying to find listener of port 39767
+Vim plugin, 18:03:53: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:53: Found pid - 
+Vim plugin, 18:03:53: Trying to find listener of port 39767
+Vim plugin, 18:03:53: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:54: Found pid - 
+Vim plugin, 18:03:54: Trying to find listener of port 39767
+Vim plugin, 18:03:54: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:54: Found pid - 
+Vim plugin, 18:03:54: Trying to find listener of port 39767
+Vim plugin, 18:03:54: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:54: Found pid - 
+Vim plugin, 18:03:54: Trying to find listener of port 39767
+Vim plugin, 18:03:54: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:54: Found pid - 
+Vim plugin, 18:03:54: Trying to find listener of port 39767
+Vim plugin, 18:03:54: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:54: Found pid - 
+Vim plugin, 18:03:54: Trying to find listener of port 39767
+Vim plugin, 18:03:54: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:54: Found pid - 
+Vim plugin, 18:03:54: Trying to find listener of port 39767
+Vim plugin, 18:03:54: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:54: Found pid - 
+Vim plugin, 18:03:54: Trying to find listener of port 39767
+Vim plugin, 18:03:54: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:54: Found pid - 
+Vim plugin, 18:03:54: Trying to find listener of port 39767
+Vim plugin, 18:03:54: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:54: Found pid - 
+Vim plugin, 18:03:54: Trying to find listener of port 39767
+Vim plugin, 18:03:54: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:54: Found pid - 
+Vim plugin, 18:03:54: Trying to find listener of port 39767
+Vim plugin, 18:03:54: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:54: Found pid - 
+Vim plugin, 18:03:54: Trying to find listener of port 39767
+Vim plugin, 18:03:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:55: Found pid - 
+Vim plugin, 18:03:55: Trying to find listener of port 39767
+Vim plugin, 18:03:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:55: Found pid - 
+Vim plugin, 18:03:55: Trying to find listener of port 39767
+Vim plugin, 18:03:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:55: Found pid - 
+Vim plugin, 18:03:55: Trying to find listener of port 39767
+Vim plugin, 18:03:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:55: Found pid - 
+Vim plugin, 18:03:55: Trying to find listener of port 39767
+Vim plugin, 18:03:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:55: Found pid - 
+Vim plugin, 18:03:55: Trying to find listener of port 39767
+Vim plugin, 18:03:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:55: Found pid - 
+Vim plugin, 18:03:55: Trying to find listener of port 39767
+Vim plugin, 18:03:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:55: Found pid - 
+Vim plugin, 18:03:55: Trying to find listener of port 39767
+Vim plugin, 18:03:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:55: Found pid - 
+Vim plugin, 18:03:55: Trying to find listener of port 39767
+Vim plugin, 18:03:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:55: Found pid - 
+Vim plugin, 18:03:55: Trying to find listener of port 39767
+Vim plugin, 18:03:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:55: Found pid - 
+Vim plugin, 18:03:55: Trying to find listener of port 39767
+Vim plugin, 18:03:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:55: Found pid - 
+Vim plugin, 18:03:55: Trying to find listener of port 39767
+Vim plugin, 18:03:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:55: Found pid - 
+Vim plugin, 18:03:55: Trying to find listener of port 39767
+Vim plugin, 18:03:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:55: Found pid - 
+Vim plugin, 18:03:55: Trying to find listener of port 39767
+Vim plugin, 18:03:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:55: Found pid - 
+Vim plugin, 18:03:55: Trying to find listener of port 39767
+Vim plugin, 18:03:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:55: Found pid - 
+Vim plugin, 18:03:55: Trying to find listener of port 39767
+Vim plugin, 18:03:55: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:55: Found pid - 
+Vim plugin, 18:03:56: Trying to find listener of port 39767
+Vim plugin, 18:03:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:56: Found pid - 
+Vim plugin, 18:03:56: Trying to find listener of port 39767
+Vim plugin, 18:03:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:56: Found pid - 
+Vim plugin, 18:03:56: Trying to find listener of port 39767
+Vim plugin, 18:03:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:56: Found pid - 
+Vim plugin, 18:03:56: Trying to find listener of port 39767
+Vim plugin, 18:03:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:56: Found pid - 
+Vim plugin, 18:03:56: Trying to find listener of port 39767
+Vim plugin, 18:03:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:56: Found pid - 
+Vim plugin, 18:03:56: Trying to find listener of port 39767
+Vim plugin, 18:03:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:56: Found pid - 
+Vim plugin, 18:03:56: Trying to find listener of port 39767
+Vim plugin, 18:03:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:56: Found pid - 
+Vim plugin, 18:03:56: Trying to find listener of port 39767
+Vim plugin, 18:03:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:56: Found pid - 
+Vim plugin, 18:03:56: Trying to find listener of port 39767
+Vim plugin, 18:03:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:56: Found pid - 
+Vim plugin, 18:03:56: Trying to find listener of port 39767
+Vim plugin, 18:03:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:56: Found pid - 
+Vim plugin, 18:03:56: Trying to find listener of port 39767
+Vim plugin, 18:03:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:56: Found pid - 
+Vim plugin, 18:03:56: Trying to find listener of port 39767
+Vim plugin, 18:03:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:56: Found pid - 
+Vim plugin, 18:03:56: Trying to find listener of port 39767
+Vim plugin, 18:03:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:56: Found pid - 
+Vim plugin, 18:03:56: Trying to find listener of port 39767
+Vim plugin, 18:03:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:56: Found pid - 
+Vim plugin, 18:03:56: Trying to find listener of port 39767
+Vim plugin, 18:03:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:56: Found pid - 
+Vim plugin, 18:03:56: Trying to find listener of port 39767
+Vim plugin, 18:03:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:56: Found pid - 
+Vim plugin, 18:03:56: Trying to find listener of port 39767
+Vim plugin, 18:03:56: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:56: Found pid - 
+Vim plugin, 18:03:57: Trying to find listener of port 39767
+Vim plugin, 18:03:57: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:57: Found pid - 
+Vim plugin, 18:03:57: Trying to find listener of port 39767
+Vim plugin, 18:03:57: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:57: Found pid - 
+Vim plugin, 18:03:57: Trying to find listener of port 39767
+Vim plugin, 18:03:57: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'
+Vim plugin, 18:03:57: Found pid - 
+Vim plugin, 18:03:57: Trying to find listener of port 39767
+Vim plugin, 18:03:57: Executing command: lsof -i tcp:39767 | grep LISTEN | awk '{print $2}'

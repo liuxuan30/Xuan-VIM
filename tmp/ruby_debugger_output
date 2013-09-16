@@ -1,0 +1,15 @@
+Fast Debugger (ruby-debug-ide 0.4.16, ruby-debug-base 0.10.4) listens on 127.0.0.1:39767
+Fatal exception in DebugThread loop: Address already in use - bind(2)
+Backtrace:
+/usr/local/rvm/gems/ruby-1.8.7-p371@evt/gems/ruby-debug-ide-0.4.16/lib/ruby-debug-ide.rb:135:in `initialize'
+  from: /usr/local/rvm/gems/ruby-1.8.7-p371@evt/gems/ruby-debug-ide-0.4.16/lib/ruby-debug-ide.rb:135:in `new'
+  from: /usr/local/rvm/gems/ruby-1.8.7-p371@evt/gems/ruby-debug-ide-0.4.16/lib/ruby-debug-ide.rb:135:in `start_control'
+  from: /usr/local/rvm/gems/ruby-1.8.7-p371@evt/gems/ruby-debug-ide-0.4.16/lib/ruby-debug-ide.rb:129:in `initialize'
+  from: /usr/local/rvm/gems/ruby-1.8.7-p371@evt/gems/ruby-debug-ide-0.4.16/lib/ruby-debug-ide.rb:129:in `new'
+  from: /usr/local/rvm/gems/ruby-1.8.7-p371@evt/gems/ruby-debug-ide-0.4.16/lib/ruby-debug-ide.rb:129:in `start_control'
+  from: /usr/local/rvm/gems/ruby-1.8.7-p371@evt/gems/ruby-debug-ide-0.4.16/lib/ruby-debug-ide.rb:96:in `start_server'
+  from: /usr/local/rvm/gems/ruby-1.8.7-p371@evt/gems/ruby-debug-ide-0.4.16/lib/ruby-debug-ide.rb:100:in `debug_program'
+  from: /usr/local/rvm/gems/ruby-1.8.7-p371@evt/gems/ruby-debug-ide-0.4.16/bin/rdebug-ide:87
+  from: /usr/local/rvm/gems/ruby-1.8.7-p371@evt/bin/rdebug-ide:19:in `load'
+  from: /usr/local/rvm/gems/ruby-1.8.7-p371@evt/bin/rdebug-ide:19
+  from: /usr/local/rvm/gems/ruby-1.8.7-p371@evt/bin/ruby_noexec_wrapper:14
