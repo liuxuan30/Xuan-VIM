@@ -10,3 +10,8 @@ Hot keys are defined in .vimrc, such as 'T' to create new tabs, '.' + '[' and '.
 Plugins are from other authors with certain licenses, which also expand to this repo including MIT license.
 
 Please compile your VIM with ruby, cscope, etc. before you want the full functionality of all the plugins.
+
+## Install
+1. mkdir ~/.vim
+2. copy every thing to ~/.vim
+3. launch vim
